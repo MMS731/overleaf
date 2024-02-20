@@ -1,0 +1,16 @@
+The useful commands in overleaf
+ADD CHAPTER
+\chapter : for create a chapter in our project report
+ADD SUBSECTION OF CHAPTER
+\section: for create a section heading in a chapter eg:In a implimentation chapter need "hardware" part
+ADD AGAIN SUBSECTION
+\subsection: for create sub topic under a given section eg:arduino,esp,lora etc
+ADD IMAGE
+
+\\begin{figure}[h!] //This is to begin a image section if we can put H in the place of h! so the image become stable
+    \centering      // centering the image position in a page
+    \includegraphics[width=0.8\textwidth]{image.jpeg}    // The image name is replace by Image.jpeg section , The width is change to the size of image accoding to page
+    \caption{ Earth’s magnetic field lines distorted by ferrous metal of the car}//The caption decided to show the image underline like about the image 
+    \label{Figure 1.}//The label (figure) is replace automatically in overleaf
+\end{figure}
+\
